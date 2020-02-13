@@ -1,0 +1,91 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+/* Header*/
+
+/* Main Style */
+body{
+
+  margin-left: 40px;
+  margin-top: 20px;
+  margin-right: 50px;
+
+  background-color: black;
+  color: white;
+  font-family:monospace
+}
+
+a{
+  color: white;
+  text-decoration:overline
+}
+
+ul{
+  list-style-type: none;
+}
+
+h1{
+  font-weight: 600;
+  font-size: 16pt;
+}
+
+h6{
+  font-weight: 400;
+  font-size: 12pt;
+  margin: 0px;
+}
+
+p{
+  font-size: 12pt;
+  color: lightgrey;
+}
+
+{
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  overflow: hidden;
+}
+
+/* Header */
+
+.headerlinks{
+  display: inline-block;
+  color: white;
+  margin-left:10px;
+}
+
+.pages{
+  position: absolute;
+  left: 0px;
+  top: 50px;
+  font-weight: 1000px;
+}
+
+#name {
+  color: white;
+}
+
+#urhere a{
+  color: white;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+/* Footer */
+
+

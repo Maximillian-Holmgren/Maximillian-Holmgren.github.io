@@ -1,0 +1,23 @@
+/*RESETS*/
+*{
+    margin:0px;
+    padding:0px;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/*The code above resets box-sizing & margins and padding on all elements*/
+/*Your CSS code goes below*/
+
+
+body{
+    background-color:lightgray;
+    height:100vh;
+
+}

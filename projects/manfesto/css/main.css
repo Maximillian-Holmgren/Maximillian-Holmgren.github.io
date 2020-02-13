@@ -1,0 +1,96 @@
+body {
+    background-color: black;
+}
+
+#lineline {
+    color:white;
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+}
+
+#lineZero {
+    color: white;
+    font-size: 15px;
+    font-family: 'Heebo', sans-serif;
+
+}
+
+#lineOne {
+    color: red;
+    font-size: 15px;
+    font-family: 'Bangers', cursive;
+}
+
+#lineTwo {
+    color: orange;
+    font-size: 20px;
+    font-family: 'Uncial Antiqua', cursive;
+}
+
+#lineThree {
+    color: yellow;
+    font-family: 'Gelasio', serif;
+    font-size: 30px;
+    background-color: red;
+}
+
+#lineFour {
+    color: greenyellow;
+    font-family: cursive;
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
+    background-color: lightyellow;
+}
+
+#lineFive {
+    color: green;
+    font-family: monospace;
+    font-size: 50px;
+    background-color: aqua;
+    font-family: 'Bowlby One SC', cursive;
+}
+
+#lineSix {
+    color: lightcyan;
+    font-family: fantasy;
+    font-size: 60px;
+    font-family: 'Heebo', sans-serif;
+    background-color: orangered;
+}
+
+#lineSeven {
+    color: blue;
+    font-size: 70px;
+    font-family: 'Dosis', sans-serif;
+}
+
+#lineEight {
+    color: mediumpurple;
+    font-size: 80px;
+    font-family: 'Anton', sans-serif;
+}
+
+#lineNine {
+    color: purple;
+    font-size: 90px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+#lineTen {
+    color: pink;
+    font-size: 100px;
+    font-family: 'Lobster', cursive;
+}
+
+#lineEleven {
+    color: hotpink;
+    font-size: 110px;
+    font-family: 'Anton', sans-serif;
+}
+
+#lineTwelve {
+    color: deeppink;
+    font-size: 120px;
+    background-color: greenyellow;
+
+}
