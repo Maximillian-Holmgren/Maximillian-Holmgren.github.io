@@ -1,0 +1,98 @@
+body {
+    background: #cccccc;
+}
+
+/* do NOT modify the canvas */
+
+.canvas {
+    width: 900px;
+    height: 556px;
+    margin: 100px auto;
+    background: white;
+    position: relative;
+}
+
+/* modify the assets below */
+
+
+#triangle {
+    width: 0;
+    height: 0;
+    border-left: 0px solid transparent;
+    border-right: 900px solid transparent;
+    border-bottom: 400px solid grey;
+    position: center;
+    top: 300px;
+    left: 300px;
+}
+
+#square {
+    width: 900px;
+    height: 200px;
+    background: orange;
+    bottom: 0px;
+    left: 0px;
+    position: absolute;
+
+}
+
+#stem {
+    width: 10px;
+    height: 100px;
+    background: green;
+    bottom: 350px;
+    left: 130px;
+    position: absolute;
+}
+#book {
+    width: 90px;
+    height: 200px;
+    background: tan;
+    top: 156px;
+    left: 500px;
+    position: absolute;
+
+}
+
+#star-six {
+      width: 0;
+      height: 0;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      border-bottom: 100px solid pink;
+      position: absolute;
+      top: 20
+    
+    
+    }
+    #star-six:after {
+      width: 0;
+      height: 0;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      border-top: 100px solid pink;
+      position: absolute;
+      content: "";
+      top: -370px;
+      left: 35px;
+    }
+
+#circle {
+    width: 70px;
+    height: 200px;
+    background: blue;
+    border-radius: 10px;
+    top: 160px;
+    left: 100px;
+    position: absolute;
+}
+
+#back {
+    width: 900px;
+    height: 400px;
+    background: grey;
+    top: 0px;
+    left: 0px;
+    position: absolute
+
+

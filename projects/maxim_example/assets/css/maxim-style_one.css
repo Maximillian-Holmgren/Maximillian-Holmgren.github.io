@@ -1,0 +1,65 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: red
+}
+
+.row {
+    margin: 0 10px;
+    padding: 10px;
+}
+
+p {
+    font-size: 4em;
+    color: black;
+    font-family: monospace;
+}
+
+#blue {
+    color: greenyellow;
+    font-style: oblique;
+    animation-name: blue;
+    animation-iteration-count: infinite;
+    animation-duration: 7s;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+#lost {
+    animation-name: lost;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+
+@keyframes blue {
+    0% {
+        color: navajowhite;
+    }
+    100% {
+        color: red;
+    }
+}
+
+@keyframes lost {
+    0% {
+        letter-spacing: normal;
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+    0% {
+        letter-spacing: 25px;
+    }
+}

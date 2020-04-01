@@ -1,0 +1,26 @@
+* {
+    padding: 0px;
+    margin: 0pcx;
+
+}
+
+body {
+    height: 100vh;
+    background-color: darkorange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image1 {
+    width: 500px;
+    height: 500px;
+}
+
+.label {
+    color: white;
+    font;
+    font-family: cursive;
+    font-size: 2em;
+
+}
