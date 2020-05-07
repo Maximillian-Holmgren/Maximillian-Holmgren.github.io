@@ -1,0 +1,84 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #000;
+}
+
+.row {
+    margin: 0 10px;
+    padding: 10px;
+}
+
+p {
+  position: relative;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 2em;
+  letter-spacing: 4px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #000, #fff, #000);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 3s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+#blue {
+    color: greenyellow;
+    font-style: oblique;
+    animation-name: blue;
+    animation-iteration-count: infinite;
+    animation-duration: 7s;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+#lost {
+    animation-name: lost;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+
+@keyframes blue {
+    0% {
+        color: navajowhite;
+    }
+    100% {
+        color: red;
+    }
+}
+
+@keyframes lost {
+    0% {
+        letter-spacing: normal;
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+    0% {
+        letter-spacing: 100px;
+    }
+}
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}

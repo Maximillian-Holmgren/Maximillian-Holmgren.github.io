@@ -1,0 +1,51 @@
+body {
+    background-color: lavender;
+    height: 400vh;
+}
+
+pre {
+    color: white;
+    background-color: black;
+    display: inline-block;
+    padding: 0 3px;
+}
+
+div {
+    width: 500px;
+    height: 200px;
+}
+
+div.static {
+    background-color: blue;
+    position: static;
+}
+
+div.relative {
+    background-color: yellow;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+div.fixed {
+    background-color: purple;
+    position: fixed;
+    top:0px;
+    left:500px;
+
+}
+
+div.absolute {
+    background-color: green;
+    position: absolute;
+    top:0px;
+    left:0px;
+    
+}
+
+div.sticky {
+    background-color: red;
+    position: sticky;
+    top: 0px;
+    
+}
