@@ -1,0 +1,117 @@
+body {
+    background-color: black;
+}
+
+#lineline {
+    color:white;
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+    
+}
+
+#lineZero {
+    color: white;
+    font-size: 50px;
+    font-family: 'Lobster', cursive;
+    
+}
+
+#lineOne {
+    color: black;
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+    background-color: yellow;
+    padding: 10px;
+
+}
+
+#lineTwo {
+    color: yellow;
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+    background-color: black;
+    padding: 10px;
+
+}
+
+#lineThree {
+    color: black;
+    font-family: 'Lobster', serif;
+    font-size: 30px;
+    background-color: yellow;
+    padding: 10px;
+}
+
+#lineFour {
+    color: yellow;
+    font-family: cursive;
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+    background-color: black;
+    padding: 10px;
+}
+
+#lineFive {
+    color: black;
+    font-family: monospace;
+    font-size: 30px;
+    background-color: yellow;
+    font-family: 'Lobster', cursive;
+    padding: 10px;
+}
+
+#lineSix {
+    color: yellow;
+    font-family: fantasy;
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+    background-color: black;
+    padding: 10px;
+}
+
+#lineSeven {
+    color: black;
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+    background-color: yellow;
+    padding: 10px;
+}
+
+#lineEight {
+    color: yellow;
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+    background-color: black;
+    padding: 10px;
+}
+
+#lineNine {
+    color: black;
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+    background-color: yellow;
+    padding: 10px;
+}
+
+#lineTen {
+    color: yellow;
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+    background-color: black;
+    padding: 10px;
+}
+
+#lineEleven {
+    color: black;
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+    background-color: yellow;
+    padding: 10px;
+}
+
+#lineTwelve {
+    color: deeppink;
+    font-size: 20px;
+    background-color: greenyellow;
+    background-color: white;
+}
